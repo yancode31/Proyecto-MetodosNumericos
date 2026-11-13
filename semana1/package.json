@@ -1,0 +1,10 @@
+{
+  "name": "simtele-risk-semana-1",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Prototipo académico SIMTELE-RISK - Semana 1. Sin dependencias externas.",
+  "scripts": {
+    "test": "node tests/test-math.mjs"
+  }
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1530" />
+  <meta name="description" content="SIMTELE-RISK. Prototipo académico de métodos numéricos aplicados a escenarios hipotéticos de un sistema de transporte por cable, Semana 1." />
+  <title>SIMTELE-RISK · Laboratorio de Métodos Numéricos</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="SIMTELE-RISK: inicio">
+        <span class="brand-mark" aria-hidden="true"><svg width="27" height="27" viewBox="0 0 28 28" fill="none"><path d="M3 7.5L25 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 6V12" stroke="currentColor" stroke-width="2"/><rect x="7" y="12" width="15" height="11" rx="4" stroke="currentColor" stroke-width="2"/><path d="M10 17H19M11 23L9 26M18 23L20 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="brand-copy"><strong>SIMTELE<span>-RISK</span></strong><small>LABORATORIO NUMÉRICO</small></span>
+      </a>
+      <div class="sidebar-workspace"><span class="dot green"></span><span>Proyecto académico</span><span class="workspace-pill">V1.0</span></div>
+      <nav id="sideNav"></nav>
+      <div class="sidebar-spacer"></div>
+      <div class="sidebar-course">
+        <div class="eyebrow">DESAFÍO INTEGRADOR</div>
+        <div class="course-title">Semana 1 de 3</div>
+        <div class="course-progress"><span></span></div>
+        <div class="course-sub">Modelos · errores · sistemas lineales</div>
+      </div>
+      <div class="sidebar-foot">UMSA · Métodos Numéricos<br/>Datos sintéticos · Uso educativo</div>
+    </aside>
+    <div class="app-main">
+      <header class="topbar">
+        <div class="top-left"><button id="menuToggle" type="button" class="icon-button mobile-menu" aria-label="Abrir menú" title="Menú"><span aria-hidden="true">☰</span></button><div><div id="breadcrumb" class="breadcrumb">Plataforma / Inicio</div><div class="top-sub">Simulación y análisis matemático</div></div></div>
+        <div class="top-actions"><span class="status-dot"><span></span> Modo educativo</span><button class="outline-btn top-history" type="button" data-nav="historial">Historial <span id="historyCount" class="count-pill">0</span></button><div class="avatar" title="Proyecto universitario">MN</div></div>
+      </header>
+      <main id="app" class="page-content" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer-main"><span>SIMTELE-RISK © 2026 · Prototipo académico de Semana 1</span><span>Sin conexión con equipos reales · Resultados hipotéticos</span></footer>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="mobileBackdrop" class="backdrop" data-action="close-menu"></div>
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
