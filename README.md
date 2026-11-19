@@ -14,8 +14,7 @@
 | Acceso | Enlace |
 |---|---|
 | 🚀 **Aplicación — Semana 2 (versión más reciente)** | [Abrir Semana 2](https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/) |
-| ✅ **Aplicación — Semana 1 (entrega aprobada: 6/6)** | [Abrir Semana 1](https://yancode31.github.io/Proyecto-MetodosNumericos/semana1/) |
-| 🏠 **Página principal del proyecto** | [Abrir SIMTELE-RISK](https://yancode31.github.io/Proyecto-MetodosNumericos/) |
+| ✅ **Aplicación — Semana 1 | [Abrir Semana 1](https://yancode31.github.io/Proyecto-MetodosNumericos/semana1/) |
 | 💻 **Código fuente** | [Repositorio GitHub](https://github.com/yancode31/Proyecto-MetodosNumericos) |
 
 ## 📖 Descripción del proyecto
