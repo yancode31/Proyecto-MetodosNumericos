@@ -3,14 +3,6 @@
 
 > Proyecto académico. Todos los parámetros, señales, fallas y casos son sintéticos. No se utilizan datos operativos de Mi Teleférico ni se emiten recomendaciones de seguridad reales.
 
-## Enlace en GitHub Pages
-
-Una vez subido `semana2/` al mismo repositorio, abrir:
-
-**https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/**
-
-La dirección de Semana 1 se mantiene intacta en `/semana1/`.
-
 ## Alcance de Semana 2: 
 
 | Requisito oficial | Evidencia en la aplicación |
