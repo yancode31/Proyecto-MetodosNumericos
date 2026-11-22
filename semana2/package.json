@@ -1,8 +1,0 @@
-{
-  "name": "simtele-risk-semana-2",
-  "version": "2.0.0",
-  "type": "module",
-  "private": true,
-  "description": "SIMTELE-RISK: métodos numéricos, dashboard de base de datos y regresión k-NN (IA).",
-  "scripts": {"test": "node tests/test-math.mjs && node tests/test-week2.mjs && node tests/test-ui.mjs"}
-}
