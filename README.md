@@ -13,9 +13,8 @@
 
 | Acceso | Enlace |
 |---|---|
-| **Semana 2 — Versión integrada 2.1** | [Abrir aplicación](https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/) |
+| **Semana 2 | [Abrir aplicación](https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/) |
 | Semana 1 | [Consultar prototipo](https://yancode31.github.io/Proyecto-MetodosNumericos/semana1/) |
-| Página principal | [SIMTELE-RISK](https://yancode31.github.io/Proyecto-MetodosNumericos/) |
 | Código fuente | [Repositorio GitHub](https://github.com/yancode31/Proyecto-MetodosNumericos) |
 
 ## 📖 Descripción
@@ -66,15 +65,6 @@ La **teoría de errores es transversal**. El panel de comparación, el historial
 
 Se consideran **12 combinaciones de caso y escenario**. Una condición físicamente más exigente no implica necesariamente mal condicionamiento matemático.
 
-## 📅 Avance por semanas
-
-| Semana | Alcance | Puntaje de la consigna | Estado |
-|---|---|---:|---|
-| 1 | Modelos, teoría de errores, sistemas lineales y prototipo | 6 | Aprobada: 6/6 |
-| 2 | Integración matemática, escenarios, gráficos y persistencia | 9 | Versión 2.1 preparada para presentación |
-| 3 | Validación final, conclusiones, informe, video y defensa | 10 | Pendiente |
-| | **Total** | **25** | |
-
 ### ✅ Semana 1 — Modelos y primeros algoritmos
 
 - Prototipo web con los cuatro casos y escenarios configurables.
@@ -85,8 +75,6 @@ Se consideran **12 combinaciones de caso y escenario**. Una condición físicame
 La persistencia de esta versión se realiza en el navegador; el script SQL constituye el diseño inicial.
 
 ### 🚀 Semana 2 — Integración matemática, datos e IA
-
-La versión **2.1.0** integra las dos propuestas del equipo y conserva los vínculos y funcionalidades de la aplicación anterior.
 
 #### Cobertura matemática
 
