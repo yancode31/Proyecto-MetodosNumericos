@@ -1,0 +1,10 @@
+{
+  "name": "simtele-risk-semana-2",
+  "version": "2.2.0",
+  "type": "module",
+  "private": true,
+  "description": "SIMTELE-RISK integración semana 2: métodos numéricos, Monte Carlo, k-NN, base persistente y reejecución verificable",
+  "scripts": {
+    "test": "node tests/test-math.mjs && node tests/test-week2.mjs && node tests/test-ui.mjs && node tests/test-integracion.mjs && node tests/test-db-presentation.mjs"
+  }
+}
