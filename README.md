@@ -4,125 +4,152 @@
 **Carrera:** Informática  
 **Asignatura:** Métodos Numéricos  
 **Menciones del equipo:** Ingeniería de Sistemas e Inteligencia Artificial  
-
+**Gestión:** 2026
 
 > [!IMPORTANT]
-> **Aviso académico.** SIMTELE-RISK es una plataforma de simulación educativa inspirada en un sistema de transporte por cable de La Paz, Bolivia. Utiliza **datos, parámetros y escenarios sintéticos**. No recibe telemetría real, no describe fallas verificadas de Mi Teleférico y **no debe utilizarse para tomar decisiones operativas de seguridad o mantenimiento**.
+> **Aviso académico:** SIMTELE-RISK es una plataforma educativa inspirada en el transporte por cable de La Paz, Bolivia. Todos los datos, parámetros y escenarios son sintéticos e hipotéticos. No utiliza telemetría real, no describe fallas verificadas de Mi Teleférico y no debe emplearse para tomar decisiones operativas de seguridad o mantenimiento.
 
-## 🌐 Aplicación web y repositorio
+## 🌐 Aplicación web
 
 | Acceso | Enlace |
 |---|---|
-| 🚀 **Aplicación — Semana 2 (versión más reciente)** | [Abrir Semana 2](https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/) |
-| ✅ **Aplicación — Semana 1 | [Abrir Semana 1](https://yancode31.github.io/Proyecto-MetodosNumericos/semana1/) |
-| 💻 **Código fuente** | [Repositorio GitHub](https://github.com/yancode31/Proyecto-MetodosNumericos) |
+| **Semana 2 — Versión integrada 2.1** | [Abrir aplicación](https://yancode31.github.io/Proyecto-MetodosNumericos/semana2/) |
+| Semana 1 | [Consultar prototipo](https://yancode31.github.io/Proyecto-MetodosNumericos/semana1/) |
+| Página principal | [SIMTELE-RISK](https://yancode31.github.io/Proyecto-MetodosNumericos/) |
+| Código fuente | [Repositorio GitHub](https://github.com/yancode31/Proyecto-MetodosNumericos) |
 
-## 📖 Descripción del proyecto
+## 📖 Descripción
 
-**SIMTELE-RISK** es una aplicación web que permite **formular, resolver, simular y comparar métodos numéricos** en cuatro casos hipotéticos asociados al transporte por cable. Cada caso cuenta con parámetros modificables, escenarios experimentales, resultados verificables y herramientas de análisis de errores.
+**SIMTELE-RISK** permite formular, resolver, simular y comparar modelos numéricos de cuatro casos hipotéticos relacionados con el transporte por cable. Integra parámetros configurables, escenarios experimentales, soluciones de referencia, tablas de iteraciones, gráficos de resultados y análisis de errores.
 
-El objetivo del trabajo no es únicamente mostrar gráficas o una interfaz atractiva, sino **comprobar la precisión matemática, analizar convergencia y sensibilidad, conservar las simulaciones y explicar qué significan los resultados dentro de los límites del modelo**.
+El proyecto combina la implementación de algoritmos numéricos con una arquitectura web que permite conservar y reproducir experimentos, y técnicas complementarias de Inteligencia Artificial para estudiar la reconstrucción de señales y la incertidumbre asociada al ruido.
 
 ### Objetivo general
 
-Desarrollar una plataforma web integrada que aplique y compare métodos numéricos en cuatro casos de estudio, con pruebas reproducibles, visualización de resultados y almacenamiento persistente de experimentos.
+Desarrollar una aplicación web integrada que implemente y compare métodos numéricos en cuatro casos de estudio, con experimentos reproducibles, persistencia de resultados y análisis cuantitativo de sus errores.
 
 ### Objetivos específicos
 
-- Plantear modelos matemáticos con variables, unidades, hipótesis y parámetros documentados.
-- Implementar y comparar métodos de sistemas lineales, raíces, interpolación, integración y ecuaciones diferenciales ordinarias.
-- Calcular errores absolutos, relativos y porcentuales; residuales, convergencia y sensibilidad.
-- Comparar los escenarios **NORMAL**, **ESTRÉS** y **MAL CONDICIONADO**.
-- Guardar, buscar, consultar, recuperar y relanzar simulaciones.
-- Diferenciar la **conclusión numérica** de la **interpretación del problema modelado**.
-- Integrar aportes de **Ingeniería de Sistemas** e **Inteligencia Artificial**, sin sustituir los métodos numéricos obligatorios.
+- Formular modelos matemáticos con variables, unidades, hipótesis y parámetros documentados.
+- Implementar métodos de sistemas lineales, raíces, interpolación, integración y ecuaciones diferenciales ordinarias.
+- Analizar errores absolutos, relativos y porcentuales, residuales, convergencia y sensibilidad.
+- Comparar los escenarios NORMAL, ESTRÉS y MAL CONDICIONADO.
+- Guardar, consultar, recuperar, relanzar y verificar simulaciones.
+- Diferenciar las conclusiones numéricas de las interpretaciones del fenómeno modelado.
+- Integrar aportes de Ingeniería de Sistemas e Inteligencia Artificial sin sustituir los métodos numéricos obligatorios.
 
-## 🧩 Los cuatro módulos de estudio
+## 🧩 Módulos de estudio
 
-| Módulo | Caso de estudio | Modelo / finalidad | Métodos principales |
+| N.º | Caso de estudio | Modelo o finalidad | Métodos principales |
 |---|---|---|---|
-| **1** | Detención de emergencia | Velocidad, tiempo y distancia de frenado de una cabina hipotética | RK2, RK4; bisección, Newton-Raphson y secante; trapecio, Simpson y Romberg |
-| **2** | Deterioro mecánico y mantenimiento | Tiempo de llegada a un umbral sintético de deterioro; calibración de parámetros | Bisección, Newton-Raphson, secante; Jacobi, Gauss-Seidel, LU y gradiente conjugado |
-| **3** | Oscilaciones por viento | Sistema masa–resorte–amortiguador con excitación hipotética | RK2, RK4; trapecio, Simpson y Romberg |
-| **4** | Reconstrucción de señales de sensores | Recuperación de muestras faltantes y análisis del efecto del ruido | Lagrange, Newton por diferencias divididas y splines cúbicos; comparación complementaria con k-NN |
+| 1 | Detención de emergencia | Tiempo, velocidad y distancia de frenado | RK2, RK4; bisección, Newton-Raphson, secante; trapecio, Simpson y Romberg |
+| 2 | Deterioro mecánico y mantenimiento | Umbral hipotético de deterioro y calibración | Bisección, Newton-Raphson, secante; Jacobi, Gauss-Seidel, LU y gradiente conjugado |
+| 3 | Oscilaciones por viento | Sistema masa–resorte–amortiguador | RK2, RK4; trapecio, Simpson y Romberg |
+| 4 | Reconstrucción de señales de sensores | Recuperación de muestras faltantes y efecto del ruido | Lagrange, Newton por diferencias divididas y spline cúbico natural; k-NN complementario |
+
+La **teoría de errores es transversal**. El panel de comparación, el historial, la base de datos y el Laboratorio IA son funciones de apoyo, no casos de estudio adicionales.
+
+### Modelos de referencia
+
+| Caso | Modelo |
+|---|---|
+| Detención | `v(t) = v₀ − at`; `x(t) = x₀ + v₀t − at²/2` |
+| Deterioro | `D(t) = D₀ + αt + βt²` |
+| Oscilaciones | `mx″(t) + cx′(t) + kx(t) = F(t)` |
+| Sensores | `s(t) = A sin(t)` con muestras observadas y puntos de evaluación ocultos |
 
 ### Escenarios experimentales
 
-- **NORMAL:** parámetros nominales sintéticos y configuración numérica de referencia.
-- **ESTRÉS:** condiciones más exigentes dentro de las hipótesis del modelo; permite estudiar cambios de resultados y errores.
-- **MAL CONDICIONADO:** subexperimento diseñado para mostrar sensibilidad numérica, por ejemplo una matriz con número de condición elevado o nodos de interpolación desfavorables.
+- **NORMAL:** condiciones sintéticas nominales y configuración numérica de referencia.
+- **ESTRÉS:** condiciones más exigentes dentro de las hipótesis del modelo, para comparar resultados y sensibilidad.
+- **MAL CONDICIONADO:** subexperimentos que evidencian sensibilidad matemática, como matrices con números de condición elevados o nodos de interpolación desfavorables.
 
-**Un problema matemáticamente mal condicionado no equivale necesariamente a un riesgo físico.** Los resultados no constituyen una evaluación operativa real.
+Se consideran **12 combinaciones de caso y escenario**. Una condición físicamente más exigente no implica necesariamente mal condicionamiento matemático.
 
-### ✅ Semana 1 — Prototipo y bases matemáticas
+## 📅 Avance por semanas
 
-- Cuatro módulos de estudio y escenarios configurables.
-- Ejemplos numéricos, soluciones de referencia, tablas y gráficos.
-- Métodos de sistemas lineales: **Jacobi, Gauss-Seidel, LU y gradiente conjugado**.
-- Cálculo transversal de errores y residuales.
-- Historial local de experimentos, DER inicial, script SQL y pruebas automatizadas.
+| Semana | Alcance | Puntaje de la consigna | Estado |
+|---|---|---:|---|
+| 1 | Modelos, teoría de errores, sistemas lineales y prototipo | 6 | Aprobada: 6/6 |
+| 2 | Integración matemática, escenarios, gráficos y persistencia | 9 | Versión 2.1 preparada para presentación |
+| 3 | Validación final, conclusiones, informe, video y defensa | 10 | Pendiente |
+| | **Total** | **25** | |
 
-**Persistencia de Semana 1:** IndexedDB, con alternativa local cuando corresponde; el SQL es un esquema inicial, no una conexión activa a un servidor.
+### ✅ Semana 1 — Modelos y primeros algoritmos
 
-### 🚀 Semana 2 — Integración matemática, persistencia e IA
+- Prototipo web con los cuatro casos y escenarios configurables.
+- Sistemas lineales de dimensión 4×4 con solución de referencia: Jacobi, Gauss-Seidel, LU y gradiente conjugado.
+- Teoría de errores, primeras comparaciones, tablas y gráficos.
+- Historial local, DER inicial, script SQL y pruebas automatizadas.
 
-**Integración matemática**
+La persistencia de esta versión se realiza en el navegador; el script SQL constituye el diseño inicial.
+
+### 🚀 Semana 2 — Integración matemática, datos e IA
+
+La versión **2.1.0** integra las dos propuestas del equipo y conserva los vínculos y funcionalidades de la aplicación anterior.
+
+#### Cobertura matemática
 
 - **Raíces:** bisección, Newton-Raphson y secante.
-- **Interpolación:** Lagrange, Newton por diferencias divididas y splines cúbicos.
+- **Interpolación:** Lagrange, Newton por diferencias divididas y splines cúbicos naturales.
 - **Integración:** trapecio compuesto, Simpson 1/3 compuesto y Romberg.
-- **EDO:** Runge-Kutta de segundo y cuarto orden (RK2 y RK4).
-- Ejecución de los cuatro casos en condiciones nominales; escenarios NORMAL, ESTRÉS y MAL CONDICIONADO, con tablas, gráficos y métricas de error.
-- Vista **«Base de datos»** y tabla de las simulaciones realmente guardadas.
-- Visualización de **ID, fecha, módulo, escenario, parámetros y resultados**.
-- Funciones para **buscar, abrir, recuperar, relanzar y exportar** experimentos (CSV/JSON).
-- Recuperación de parámetros, resultados y gráficas para demostrar la persistencia después de actualizar la página.
-- Opción de cargar demostraciones sintéticas y, cuando corresponda, importar registros de Semana 1.
+- **EDO:** Runge-Kutta de segundo orden (punto medio) y cuarto orden (RK2/RK4).
+- **Sistemas lineales:** conservación de los cuatro métodos de Semana 1.
+- Tres escenarios por módulo, soluciones de referencia, tablas, errores y al menos dos gráficos por caso.
+- Interpretación numérica y del problema diferenciadas.
 
-**Aporte complementario de Inteligencia Artificial**
+#### Mejoras de la versión integrada
 
-- Laboratorio de sensores con **regresión k-NN (`k = 2`)**.
-- Comparación de la reconstrucción de señales frente a **Lagrange, Newton y splines cúbicos**.
-- Separación de nodos observados y puntos sintéticos de evaluación.
-- Medición de **MAE** (error absoluto medio) y **RMSE** (raíz del error cuadrático medio).
+| Mejora | Funcionalidad |
+|---|---|
+| Dashboard de datos | Visualiza registros realmente almacenados: ID, fecha, caso, escenario, parámetros y resultado |
+| Historial | Busca, abre, recupera, relanza y exporta simulaciones en CSV/JSON |
+| Verificación de experimentos | Repite el cálculo con los parámetros guardados y contrasta resultados, referencias, tablas y gráficos |
+| Regresión k-NN | Compara la reconstrucción de sensores con los tres interpolantes obligatorios |
+| Monte Carlo | Analiza la incertidumbre mediante ruido gaussiano sintético, ensayos configurables y semilla reproducible |
+| Persistencia | Conserva el almacenamiento de Semana 2 (`SIMTELE_RISK_S2`) y el esquema SQLite de seis entidades |
+| Calidad | Añade pruebas de integración, reproducibilidad y detección de cambios en registros |
 
-> k-NN es una **comparación adicional**, no reemplaza los métodos obligatorios ni se presenta como detector de averías reales.
-
-## 👥 Aporte de ambas menciones
+## 👥 Enfoque 
 
 | Ingeniería de Sistemas | Inteligencia Artificial |
 |---|---|
-| Arquitectura, interfaz y organización de módulos | Preparación de datos sintéticos de sensores |
-| Validación de entradas, persistencia y recuperación | Implementación del modelo k-NN de regresión |
-| Modelo entidad–relación, script SQL y API local | Separación de observaciones y datos de evaluación |
-| Pruebas, reproducibilidad y trazabilidad de simulaciones | Comparación de predicciones con interpolaciones numéricas |
-| Dashboard, historial y exportación de resultados | Evaluación por MAE/RMSE e interpretación de limitaciones |
+| Arquitectura y separación de interfaz, cálculo y persistencia | Preparación de señales sintéticas y datos de evaluación |
+| Diseño relacional, DER y script SQL | Regresión supervisada k-NN (`k = 2`) |
+| API local, IndexedDB y SQLite | Comparación con Lagrange, Newton y spline cúbico |
+| Validación de parámetros y gestión de errores | Métricas MAE y RMSE en puntos no usados para el ajuste |
+| Dashboard, historial y trazabilidad | Monte Carlo, ruido sintético e incertidumbre |
+| Pruebas automatizadas y reproducibilidad | Interpretación de resultados y limitaciones del modelo |
 
-**Ambas menciones deben comprender y defender los fundamentos matemáticos comunes** del proyecto.
+Ambos integrantes deben comprender los fundamentos matemáticos y defender los cuatro casos, además de explicar los aportes desde su propia mención.
 
-## 💾 Almacenamiento y base de datos
+### 🧠 Laboratorio IA
 
-La Semana 2 dispone de **dos modos de almacenamiento**, según cómo se ejecute:
+La regresión **k-NN (k = 2)** se utiliza como comparación complementaria de los métodos de interpolación. Los datos observados se separan de los puntos sintéticos de evaluación. La precisión se mide con:
 
-| Modo | ¿Dónde funciona? | ¿Qué guarda? | ¿Se comparte entre computadoras? |
-|---|---|---|---|
-| **IndexedDB** | GitHub Pages / navegador | Simulaciones e historial persistentes en ese navegador | **No** |
-| **SQLite + servidor Python** | Ejecución local mediante `server.py` | Simulaciones en `database/simtele.db` con tablas relacionales | **No**, salvo que se despliegue un servidor accesible para otros equipos |
+- **MAE:** error absoluto medio.
+- **RMSE:** raíz del error cuadrático medio.
 
-La base SQLite local utiliza estas **seis entidades**: `caso_estudio`, `escenario`, `simulacion`, `ejecucion_metodo`, `iteracion_resultado` y `resultado_resumen`.
+La ampliación **Monte Carlo** repite el experimento con perturbaciones gaussianas independientes sobre las muestras observadas.
 
-**GitHub Pages publica archivos estáticos: no ejecuta Python ni SQLite.** En la versión pública, la pantalla «Base de datos» muestra el contenido real de **IndexedDB de ese navegador**, no las seis tablas del servidor local. El historial puede perderse al borrar los datos del sitio.
+| Configuración | Valores |
+|---|---|
+| Número de ensayos | 20–2000 (200 por defecto) |
+| Desviación del ruido sintético, σ | 0–0.5 |
+| Semilla | Entera y configurable |
+| Métodos comparados | Lagrange, Newton dividido, spline natural y k-NN |
+| Resultados | MAE medio, percentil 95 del MAE, dispersión y curvas de error |
 
+El percentil 95 describe la distribución empírica del error bajo las perturbaciones elegidas. No representa una probabilidad de falla o accidente. No se presupone que k-NN supere a los interpolantes.
 ## 💻 Tecnologías utilizadas
 
-| Tecnología | Uso en el proyecto |
+| Tecnología | Uso |
 |---|---|
-| **HTML5 y CSS3** | Estructura, presentación y diseño adaptable |
-| **JavaScript (ES Modules)** | Interfaz, simulaciones, gráficos y algoritmos numéricos |
-| **IndexedDB** | Persistencia local de la versión pública |
-| **Python 3.10+** | Servidor local y API de la Semana 2 |
-| **SQLite / SQL** | Base de datos relacional local; estructura DER |
-| **k-NN** | Modelo complementario de regresión para sensores sintéticos |
-| **Node.js** | Pruebas automatizadas con `npm test` |
-| **Git y GitHub** | Versionado y organización de entregas |
-| **GitHub Pages** | Publicación gratuita de la versión estática |
+| HTML5 y CSS3 | Interfaz web adaptable |
+| JavaScript (ES Modules) | Métodos numéricos, gráficos, navegación e IA |
+| IndexedDB / localStorage | Persistencia en el navegador |
+| Python 3.10+ | Servidor y API local |
+| SQLite / SQL | Base de datos relacional, consultas y relaciones |
+| Node.js | Ejecución de pruebas automatizadas |
+| Git y GitHub | Control de versiones |
+| GitHub Pages | Publicación de la aplicación estática |
