@@ -1,0 +1,609 @@
+{
+  "proyecto": "SIMTELE-RISK",
+  "semana": 2,
+  "fecha": "2026-11-19",
+  "experiments": [
+    {
+      "caso": 1,
+      "nombre": "Detención de emergencia",
+      "escenario": "NORMAL",
+      "entrada": {
+        "v0": 10,
+        "a": 2,
+        "tr": 1.5,
+        "h": 0.5
+      },
+      "metrica": {
+        "label": "Distancia total",
+        "value": 40,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Tiempo de frenado",
+          "value": "5",
+          "unit": "s"
+        },
+        {
+          "label": "Distancia de frenado",
+          "value": "25",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia de reacción",
+          "value": "15",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia total",
+          "value": "40",
+          "unit": "m"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 2
+    },
+    {
+      "caso": 1,
+      "nombre": "Detención de emergencia",
+      "escenario": "ESTRÉS",
+      "entrada": {
+        "v0": 15,
+        "a": 1.5,
+        "tr": 2,
+        "h": 0.5
+      },
+      "metrica": {
+        "label": "Distancia total",
+        "value": 105,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Tiempo de frenado",
+          "value": "10",
+          "unit": "s"
+        },
+        {
+          "label": "Distancia de frenado",
+          "value": "75",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia de reacción",
+          "value": "30",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia total",
+          "value": "105",
+          "unit": "m"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 2
+    },
+    {
+      "caso": 1,
+      "nombre": "Detención de emergencia",
+      "escenario": "MAL CONDICIONADO",
+      "entrada": {
+        "v0": 10,
+        "a": 2,
+        "tr": 1.5,
+        "h": 0.5
+      },
+      "metrica": {
+        "label": "Distancia total",
+        "value": 40,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Tiempo de frenado",
+          "value": "5",
+          "unit": "s"
+        },
+        {
+          "label": "Distancia de frenado",
+          "value": "25",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia de reacción",
+          "value": "15",
+          "unit": "m"
+        },
+        {
+          "label": "Distancia total",
+          "value": "40",
+          "unit": "m"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 2
+    },
+    {
+      "caso": 2,
+      "nombre": "Deterioro mecánico",
+      "escenario": "NORMAL",
+      "entrada": {
+        "D0": 0.05,
+        "alpha": 0.0205,
+        "beta": 0.0001,
+        "threshold": 0.4
+      },
+      "metrica": {
+        "label": "Tiempo al umbral",
+        "value": 15.84800378544625,
+        "unit": "meses"
+      },
+      "summary": [
+        {
+          "label": "Mes de cruce",
+          "value": "15.84800379",
+          "unit": "mes"
+        },
+        {
+          "label": "Umbral sintético",
+          "value": "0.4",
+          "unit": "índice"
+        },
+        {
+          "label": "Condición matriz SPD",
+          "value": "2.608719",
+          "unit": "κ₂"
+        },
+        {
+          "label": "Métodos de calibración",
+          "value": "4",
+          "unit": "aplicados"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 3
+    },
+    {
+      "caso": 2,
+      "nombre": "Deterioro mecánico",
+      "escenario": "ESTRÉS",
+      "entrada": {
+        "D0": 0.05,
+        "alpha": 0.05125,
+        "beta": 0.00064,
+        "threshold": 0.4
+      },
+      "metrica": {
+        "label": "Tiempo al umbral",
+        "value": 6.329046431451004,
+        "unit": "meses"
+      },
+      "summary": [
+        {
+          "label": "Mes de cruce",
+          "value": "6.32904643",
+          "unit": "mes"
+        },
+        {
+          "label": "Umbral sintético",
+          "value": "0.4",
+          "unit": "índice"
+        },
+        {
+          "label": "Condición matriz SPD",
+          "value": "9.255991",
+          "unit": "κ₂"
+        },
+        {
+          "label": "Métodos de calibración",
+          "value": "4",
+          "unit": "aplicados"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 3
+    },
+    {
+      "caso": 2,
+      "nombre": "Deterioro mecánico",
+      "escenario": "MAL CONDICIONADO",
+      "entrada": {
+        "D0": 0.05,
+        "alpha": 0.0205,
+        "beta": 0.0001,
+        "threshold": 0.4
+      },
+      "metrica": {
+        "label": "Tiempo al umbral",
+        "value": 15.84800378544625,
+        "unit": "meses"
+      },
+      "summary": [
+        {
+          "label": "Mes de cruce",
+          "value": "15.84800379",
+          "unit": "mes"
+        },
+        {
+          "label": "Umbral sintético",
+          "value": "0.4",
+          "unit": "índice"
+        },
+        {
+          "label": "Condición matriz SPD",
+          "value": "1.000e+6",
+          "unit": "κ₂"
+        },
+        {
+          "label": "Métodos de calibración",
+          "value": "4",
+          "unit": "aplicados"
+        }
+      ],
+      "tablaCount": 4,
+      "graficoCount": 3
+    },
+    {
+      "caso": 3,
+      "nombre": "Oscilaciones por viento",
+      "escenario": "NORMAL",
+      "entrada": {
+        "m": 500,
+        "c": 400,
+        "k": 2000,
+        "F0": 0,
+        "omega": 1.9,
+        "x0": 0.1,
+        "vInit": 0,
+        "h": 0.1
+      },
+      "metrica": {
+        "label": "Amplitud máxima",
+        "value": 0.1,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Amplitud máx. |x|",
+          "value": "0.1",
+          "unit": "m"
+        },
+        {
+          "label": "Instante de pico",
+          "value": "0",
+          "unit": "s"
+        },
+        {
+          "label": "Error máx. RK2",
+          "value": "0.0012733",
+          "unit": "m"
+        },
+        {
+          "label": "Error máx. RK4",
+          "value": "2.548e-6",
+          "unit": "m"
+        },
+        {
+          "label": "Integral ∫x²dt",
+          "value": "0.00724816",
+          "unit": "m²·s"
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    },
+    {
+      "caso": 3,
+      "nombre": "Oscilaciones por viento",
+      "escenario": "ESTRÉS",
+      "entrada": {
+        "m": 500,
+        "c": 200,
+        "k": 2000,
+        "F0": 100,
+        "omega": 1.9,
+        "x0": 0,
+        "vInit": 0,
+        "h": 0.01
+      },
+      "metrica": {
+        "label": "Amplitud máxima",
+        "value": 0.2124348866302829,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Amplitud máx. |x|",
+          "value": "0.21243489",
+          "unit": "m"
+        },
+        {
+          "label": "Instante de pico",
+          "value": "9.73",
+          "unit": "s"
+        },
+        {
+          "label": "Error máx. RK2",
+          "value": "8.083e-5",
+          "unit": "m"
+        },
+        {
+          "label": "Error máx. RK4",
+          "value": "1.599e-9",
+          "unit": "m"
+        },
+        {
+          "label": "Integral ∫x²dt",
+          "value": "0.12518513",
+          "unit": "m²·s"
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    },
+    {
+      "caso": 3,
+      "nombre": "Oscilaciones por viento",
+      "escenario": "MAL CONDICIONADO",
+      "entrada": {
+        "m": 500,
+        "c": 400,
+        "k": 2000,
+        "F0": 0,
+        "omega": 1.9,
+        "x0": 0.1,
+        "vInit": 0,
+        "h": 0.1
+      },
+      "metrica": {
+        "label": "Amplitud máxima",
+        "value": 0.1,
+        "unit": "m"
+      },
+      "summary": [
+        {
+          "label": "Amplitud máx. |x|",
+          "value": "0.1",
+          "unit": "m"
+        },
+        {
+          "label": "Instante de pico",
+          "value": "0",
+          "unit": "s"
+        },
+        {
+          "label": "Error máx. RK2",
+          "value": "0.0012733",
+          "unit": "m"
+        },
+        {
+          "label": "Error máx. RK4",
+          "value": "2.548e-6",
+          "unit": "m"
+        },
+        {
+          "label": "Integral ∫x²dt",
+          "value": "0.00724816",
+          "unit": "m²·s"
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    },
+    {
+      "caso": 4,
+      "nombre": "Reconstrucción de sensores",
+      "escenario": "NORMAL",
+      "entrada": {
+        "amp": 1,
+        "noiseScale": 0,
+        "test1": 0.75,
+        "test2": 1.25
+      },
+      "metrica": {
+        "label": "Error máximo de reconstrucción",
+        "value": 0.006090311541984583,
+        "unit": "u."
+      },
+      "summary": [
+        {
+          "label": "Muestras disponibles",
+          "value": "4",
+          "unit": "nodos"
+        },
+        {
+          "label": "Pruebas ocultas",
+          "value": "2",
+          "unit": "puntos"
+        },
+        {
+          "label": "Error máximo",
+          "value": "0.00609031",
+          "unit": "u."
+        },
+        {
+          "label": "Ruido aplicado",
+          "value": "0",
+          "unit": "factor"
+        },
+        {
+          "label": "MAE k-NN (IA)",
+          "value": "0.05644319",
+          "unit": "u."
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    },
+    {
+      "caso": 4,
+      "nombre": "Reconstrucción de sensores",
+      "escenario": "ESTRÉS",
+      "entrada": {
+        "amp": 1,
+        "noiseScale": 1,
+        "test1": 0.75,
+        "test2": 1.25
+      },
+      "metrica": {
+        "label": "Error máximo de reconstrucción",
+        "value": 0.024838822326087473,
+        "unit": "u."
+      },
+      "summary": [
+        {
+          "label": "Muestras disponibles",
+          "value": "4",
+          "unit": "nodos"
+        },
+        {
+          "label": "Pruebas ocultas",
+          "value": "2",
+          "unit": "puntos"
+        },
+        {
+          "label": "Error máximo",
+          "value": "0.02483882",
+          "unit": "u."
+        },
+        {
+          "label": "Ruido aplicado",
+          "value": "1",
+          "unit": "factor"
+        },
+        {
+          "label": "MAE k-NN (IA)",
+          "value": "0.06012861",
+          "unit": "u."
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    },
+    {
+      "caso": 4,
+      "nombre": "Reconstrucción de sensores",
+      "escenario": "MAL CONDICIONADO",
+      "entrada": {
+        "amp": 1,
+        "noiseScale": 0,
+        "test1": 0.0015,
+        "test2": 0.0025
+      },
+      "metrica": {
+        "label": "Error máximo de reconstrucción",
+        "value": 1.3749981188360128e-10,
+        "unit": "u."
+      },
+      "summary": [
+        {
+          "label": "Muestras disponibles",
+          "value": "4",
+          "unit": "nodos"
+        },
+        {
+          "label": "Pruebas ocultas",
+          "value": "2",
+          "unit": "puntos"
+        },
+        {
+          "label": "Error máximo",
+          "value": "1.375e-10",
+          "unit": "u."
+        },
+        {
+          "label": "Ruido aplicado",
+          "value": "0",
+          "unit": "factor"
+        },
+        {
+          "label": "MAE k-NN (IA)",
+          "value": "9.652e-5",
+          "unit": "u."
+        }
+      ],
+      "tablaCount": 3,
+      "graficoCount": 3
+    }
+  ],
+  "ai": {
+    "NORMAL": [
+      {
+        "metodo": "Lagrange",
+        "MAE": 0.004174128324680081,
+        "RMSE": 0.0048093560517883825,
+        "n": 41
+      },
+      {
+        "metodo": "Newton dividido",
+        "MAE": 0.004174128324680088,
+        "RMSE": 0.004809356051788375,
+        "n": 41
+      },
+      {
+        "metodo": "Spline cúbico natural",
+        "MAE": 0.003231027609502089,
+        "RMSE": 0.004731118497327787,
+        "n": 41
+      },
+      {
+        "metodo": "k-NN (k=2) · IA",
+        "MAE": 0.05644318788445954,
+        "RMSE": 0.07764749859859567,
+        "n": 41
+      }
+    ],
+    "ESTRÉS": [
+      {
+        "metodo": "Lagrange",
+        "MAE": 0.014231327561079818,
+        "RMSE": 0.016111093168821117,
+        "n": 41
+      },
+      {
+        "metodo": "Newton dividido",
+        "MAE": 0.014231327561079818,
+        "RMSE": 0.016111093168821106,
+        "n": 41
+      },
+      {
+        "metodo": "Spline cúbico natural",
+        "MAE": 0.014106782714778126,
+        "RMSE": 0.01613701274853172,
+        "n": 41
+      },
+      {
+        "metodo": "k-NN (k=2) · IA",
+        "MAE": 0.060128606087242145,
+        "RMSE": 0.08237209008297704,
+        "n": 41
+      }
+    ],
+    "MAL CONDICIONADO": [
+      {
+        "metodo": "Lagrange",
+        "MAE": 3.406609502871451e-17,
+        "RMSE": 3.916380949223162e-17,
+        "n": 41
+      },
+      {
+        "metodo": "Newton dividido",
+        "MAE": 3.408295305029889e-17,
+        "RMSE": 3.9167680513824195e-17,
+        "n": 41
+      },
+      {
+        "metodo": "Spline cúbico natural",
+        "MAE": 4.171738957044659e-11,
+        "RMSE": 6.172271075615207e-11,
+        "n": 41
+      },
+      {
+        "metodo": "k-NN (k=2) · IA",
+        "MAE": 0.00009652383197477768,
+        "RMSE": 0.00010691376544744795,
+        "n": 41
+      }
+    ]
+  }
+}
