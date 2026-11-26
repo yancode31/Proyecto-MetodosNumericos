@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1530" />
+  <meta name="description" content="SIMTELE-RISK. Laboratorio de métodos numéricos con base de datos relacional: cuatro casos hipotéticos de transporte por cable, tres escenarios cada uno." />
+  <title>SIMTELE-RISK · Laboratorio de Métodos Numéricos</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' rx='7' fill='%233467e8'/%3E%3Cpath d='M3 8l22-3M14 6v6' stroke='white' stroke-width='2' fill='none'/%3E%3Crect x='7' y='12' width='15' height='11' rx='4' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Saltar al contenido</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="SIMTELE-RISK: inicio">
+        <span class="brand-mark" aria-hidden="true"><svg width="27" height="27" viewBox="0 0 28 28" fill="none"><path d="M3 7.5L25 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 6V12" stroke="currentColor" stroke-width="2"/><rect x="7" y="12" width="15" height="11" rx="4" stroke="currentColor" stroke-width="2"/><path d="M10 17H19M11 23L9 26M18 23L20 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="brand-copy"><strong>SIMTELE<span>-RISK</span></strong><small>Laboratorio numérico</small></span>
+      </a>
+      <div class="sidebar-workspace"><span class="dot green"></span><span>Proyecto académico</span><span class="workspace-pill">v3.0</span></div>
+      <nav id="sideNav"></nav>
+      <div class="sidebar-spacer"></div>
+    </aside>
+    <div class="app-main">
+      <header class="topbar">
+        <div class="top-left"><button id="menuToggle" type="button" class="icon-button mobile-menu" aria-label="Abrir menú"><span aria-hidden="true">☰</span></button><div><div id="breadcrumb" class="breadcrumb">Plataforma / Inicio</div><div class="top-sub">Simulación y análisis matemático</div></div></div>
+        <div class="top-actions"><span class="status-dot"><span></span> Modo educativo</span></div>
+      </header>
+      <main id="app" class="page-content" tabindex="-1"></main>
+      <footer class="footer-main"><span>SIMTELE-RISK © 2026 · Yandira Morales Nina · Mario Fabricio Murillo Peñaranda</span><span>Sin conexión con equipos reales · Resultados hipotéticos</span></footer>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal" class="modal-backdrop"></div>
+  <div id="mobileBackdrop" class="backdrop" data-action="close-menu"></div>
+  <script type="module" src="./assets/ui/app.js"></script>
+  <script>if (location.protocol === 'file:' && document.querySelector('script[type="module"]')) document.body.innerHTML = '<div style="font:16px system-ui;max-width:640px;margin:12vh auto;padding:24px;border:1px solid #c9d6ee;border-radius:14px"><h2>Esta es la versión de desarrollo</h2><p>Los navegadores bloquean los módulos de JavaScript al abrir archivos con doble clic.</p><p><b>Abre el archivo <code>index.html</code> de la carpeta principal</b> (versión en un solo archivo), o ejecuta <code>npm start</code> dentro de <code>semana3</code> y entra a http://localhost:8080.</p></div>';</script>
+</body>
+</html>
